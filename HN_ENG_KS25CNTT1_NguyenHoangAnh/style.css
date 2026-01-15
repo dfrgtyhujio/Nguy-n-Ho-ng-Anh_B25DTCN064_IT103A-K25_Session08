@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F1F5F9;
+}
+
+.header {
+    background-color: #0ea5e9;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 15px;
+}
+
+.taskbar {
+    background-color: #E6F4FB;
+    text-align: center;
+    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.taskbar a {
+    text-decoration: none;
+    color: #0284c7;
+    margin: 0 5px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.taskbar a:hover {
+    background-color: #0077cc;
+    color: white;
+}
+
+.container {
+    width: 95%;
+    margin: 30px auto;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.highlight {
+    background-color: #e9fbff;
+    border-left: 6px solid #16a5e6;
+}
+
+.highlight ul {
+    list-style-type: '\2713';
+    padding-left: 15px;
+}
+
+.highlight li {
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+.footer {
+    border-radius: 15px;
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
